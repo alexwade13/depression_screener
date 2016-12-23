@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  padding: 1px;
+  margin: 10px;
+  background: #08C;
+  width:50%;
+  overflow: auto;
+  /* Font styles */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.doctorsShow{
+  display: inlinek;
+}
+
+.doctorsHide{
+  display: none;
+}
+
+.question {
+  display: inline-block;
+  margin: 10px;
+  background: #08C;
+  width:70%;
+  overflow: auto;
+  /* Font styles */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.select{
+  position: relative;
+  float:right;
+  
+}
+
+.doctor{
+
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
